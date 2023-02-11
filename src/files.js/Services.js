@@ -12,11 +12,9 @@ const service = {
         console.log(users);
         return users.data;
     },
-    addUser:async(firstName, lastName)=>{
-        axios.post('https://localhost:44320/api/users', {
-            firstName,
-            lastName
-          })
+    addUser:async(obj)=>{
+        debugger
+        axios.post('https://localhost:44320/api/users',obj )
           .then(function (response) {
             console.log(response);
           })
@@ -114,6 +112,13 @@ const service = {
         console.log(payments);
         return payments.data;
     },
+    sendEmailSignUp:async()=>{
+
+         axios.post('https://localhost:44320/api/email/').then(alert("send email"))
+        // `https://localhost:44344/api/email/${email}/${name}`
+        // return res.data
+        
+        },
     getPaymentById:async(id)=>{
         const payments = await axios.get(`https://localhost:44320/api/Payments/${id}`)
         console.log(payments);

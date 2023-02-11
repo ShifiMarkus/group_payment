@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter,Routes,Route} from "react-router-dom";
-import PersonalSpace from './PersonalSpace';
-import Main from "./Main";
-import Settings from "./Setting";
+import PersonalSpace from '../components/PersonalSpace/PersonalSpace';
+import Main from "../components/HomePage/Main";
+import Settings from "../components/Settings/Setting.js";
 import About from "./About";
-import Login from "./Login";
-import SignUp from "./SignUp";
-import CreateGroup from "./CreateGroup";
+import Login from "../components/Login/Login";
+import SignUp from "../components/SignUp/SignUp";
+import CreateGroup from "../components/groups/CreateGroup/CreateGroup";
 import FullScreenDialog from "./try";
-import ResponsiveAppBar from './nav';
+import ResponsiveAppBar from '../components/Navbar/nav';
 // import Nav from "./nav";
 
 export default function Router(){
