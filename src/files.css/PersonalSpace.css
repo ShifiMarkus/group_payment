@@ -1,0 +1,36 @@
+#right_side{
+    margin-left: 50vw;
+    background-color: cornflowerblue;
+    width: 48vw;
+    height: 80vh;
+    font: 25px white bold;
+}
+
+.round_button{
+    border-radius: 50px;
+    background-color:  darkcyan;
+    cursor: pointer;
+}
+
+.allGroups{
+    display: inline-table;
+    width: 80vw;
+    height: 90vh;
+    border: 1px solid rgb(226, 26, 96);
+}
+
+.singalGroup{
+  /* display: inline; */
+    display:inline-block;
+    width:20vw;
+    height:15vh;
+    margin:0;
+  padding: 100px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 10vh; 
+  border: 1px solid blue;
+  background-color: yellow;
+    /* display: inline-block; */
+}
+
