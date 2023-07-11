@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter,Routes,Route} from "react-router-dom";
-import PersonalSpace from '../components/PersonalSpace/PersonalSpace';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PersonalSpace from "../components/PersonalSpace/PersonalSpace";
 import Main from "../components/HomePage/Main";
 import Settings from "../components/Settings/Setting.js";
 import About from "./About";
@@ -8,27 +8,28 @@ import Login from "../components/Login/Login";
 import SignUp from "../components/SignUp/SignUp";
 import CreateGroup from "../components/groups/CreateGroup/CreateGroup";
 import FullScreenDialog from "./try";
-import ResponsiveAppBar from '../components/Navbar/nav';
+import Navbar from "../components/Navbar/nav";
 // import Nav from "./nav";
 
-export default function Router(){
-
-    return(
-        <>
-        <BrowserRouter>
-        <ResponsiveAppBar></ResponsiveAppBar>
+export default function Router() {
+  return (
+   
+    <>
+      <BrowserRouter>
+      
+        <Navbar/>
         <Routes>
-            <Route path="/" element={<Main/>}></Route>
-            <Route path="/personalspace" element={<PersonalSpace/>}></Route>
-            <Route path="/settings" element={<Settings/>}></Route>
-            <Route path="/about" element={<About/>}></Route>
-            <Route path="/login" element={<Login/>}></Route>
-            <Route path="/signup" element={<SignUp/>}></Route>
-            <Route path="/creategroup" element={<CreateGroup/>}></Route>
-            <Route path="/try" element={<FullScreenDialog/>}></Route>
+          <Route path="/" element={<Main />}></Route>
+          <Route path="/personalspace" element={<PersonalSpace />}></Route>
+          <Route path="/settings" element={<Settings />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/signup" element={<SignUp />}></Route>
+          <Route path="/creategroup" element={<CreateGroup />}></Route>
+          <Route path="/try" element={<FullScreenDialog />}></Route>
         </Routes>
-        </BrowserRouter>
-        {/* <Router>
+      </BrowserRouter>
+      {/* <Router>
            <div className="App">
             <ul className="App-header">
               <li>
@@ -53,7 +54,6 @@ export default function Router(){
           </Routes>
           </div>
        </Router> */}
-        </>
-
-    );
+    </>
+  );
 }

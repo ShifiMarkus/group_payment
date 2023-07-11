@@ -6,9 +6,9 @@ function IndividualIntervalsExample() {
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src={require('C:/Users/user1/OneDrive/שולחן העבודה/תכנות/פרויקט גמר/group_payment/src/images/cyber-security-protect-safe-concept-closeup-finger-about-press-button-with-security-shield-symbol_127544-1198.webp')}
+          src={require("C:/Users/user1/OneDrive/שולחן העבודה/תכנות/פרויקט גמר/group_payment/src/images/cyber-security-protect-safe-concept-closeup-finger-about-press-button-with-security-shield-symbol_127544-1198.webp")}
           alt="First slide"
-          style={{width: '100%', height: '100%'}}
+          style={{ width: "100%", height: "100%" }}
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -18,7 +18,7 @@ function IndividualIntervalsExample() {
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src={require('C:/Users/user1/OneDrive/שולחן העבודה/תכנות/פרויקט גמר/group_payment/src/images/mobile-cashback-concept-with-smartphone_23-2148462831.webp')}
+          src={require("C:/Users/user1/OneDrive/שולחן העבודה/תכנות/פרויקט גמר/group_payment/src/images/mobile-cashback-concept-with-smartphone_23-2148462831.webp")}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -29,8 +29,8 @@ function IndividualIntervalsExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={require('C:/Users/user1/OneDrive/שולחן העבודה/תכנות/פרויקט גמר/group_payment/src/images/PayInGroup_bg2.webp')}
-          alt='asdfg'       
+          src={require("C:/Users/user1/OneDrive/שולחן העבודה/תכנות/פרויקט גמר/group_payment/src/images/PayInGroup_bg2.webp")}
+          alt="asdfg"
         />
         <Carousel.Caption>
           <h3>Third slide label</h3>

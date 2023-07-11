@@ -9,7 +9,45 @@
     background-color: yellow;
 
 } */
-.cardImg{
-    width: 7rem;
-    height: 2.8rem;
+.cardImg {
+  width: 7rem;
+  height: 2.8rem;
+}
+
+
+.ul{
+  border: solid 1px yellow;
+  max-width: fit-content;
+  margin-left: 80rem;
+  list-style: none;
+  align-items: center;
+}
+
+.li{
+  margin: 2rem;
+}
+.left-cash-panel {
+  flex: 1 0 20%;
+  margin-right: 70rem;
+  padding: 20px;
+  background-color: #add8e6;
+  
+}
+
+.group-members {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cashes-card{
+  max-width: 45%;
+  max-height: 30rem;
+  margin-left: 30%;
+  margin-top: -30%;
+}
+
+.card-button{
+  margin-right: 50rem;
+  width: fit-content;
 }

@@ -1,0 +1,21 @@
+.root {
+    background-color: '#E8F5FE';
+    min-height:  '100vh';
+    /* padding-top: theme.spacing(8);
+    pa: theme.spacing(8), */
+  }
+  .title {
+    font-weight: 'bold';
+    color: '#2196F3',
+    /* marginBottom: theme.spacing(4), */
+  }
+  .subtitle {
+    color: '#2196F3';
+    /* marginBottom: theme.spacing(4), */
+  }
+  .text {
+    color: '#333';
+    line-height: 1.5rem; 
+    /* lineHeight: '1.5', */
+    /* marginBottom: theme.spacing(4), */
+  }

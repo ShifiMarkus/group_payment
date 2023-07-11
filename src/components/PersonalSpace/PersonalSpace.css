@@ -15,29 +15,124 @@
 .allGroups{
     display: inline-table;
     width: 70rem;
-    height: 38rem;
-    border: 1px solid rgb(115, 160, 237);
+    height: 32rem;
+    overflow-y: auto;
+    border: 1px solid #4286e9;
 }
 
 .singalGroup{
-  /* display: inline; */
     display:inline-block;
     width:20vw;
     height:15vh;
-    /* margin:0; */
   padding: 100px;
   margin-left: 5vw;
   margin-right: 5vw;
   margin-top: 10vh; 
   border: 1px solid blue;
-  background-color: rgb(117, 155, 220);
-    /* display: inline-block; */
+  background-color: #4286e9;
 }
 
 .singalCash{
   width:15rem;
-  background-color: rgb(117, 155, 220);
+  background-color: #4286e9;
   border: 1px solid blue;
   margin-left: 50rem;
 }
+.group-members {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
+.group-members li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.center-panel {
+  flex: 1 0 50%;
+  padding: 70px;
+  width: 90rem;
+  height: 35rem;
+  background-color: #fff;
+}
+
+.groups-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.group-card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #add8e6;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.group-card.paid {
+  background-color: #90ee90;
+}
+
+.group-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.group-card p {
+  margin: 1;
+  font-size: 18px;
+}
+.personal-area-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.left-panel {
+  flex: 1 0 20%;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #add8e6;
+}
+
+.add-group-btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: #00bfff;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.group-card-button {
+  /* background-color: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1) 100%); */
+  border: white solid;
+  border-radius: 25px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.group-card-button:hover {
+  background-color: #6d76f7;
+}

@@ -4,15 +4,16 @@ export const MenuItems = [
         url: '/', 
         cName:'nav-links'
     },
-    {
-        title: 'Settings', 
-        url: '/settings', 
-        cName:'nav-links'
-    },
+    // {
+    //     title: 'Settings', 
+    //     url: '/settings', 
+    //     cName:'nav-links'
+    // },
     {
         title: 'personalspace', 
         url: '/personalspace', 
         cName:'nav-links'
+        // icon:<ghjj/>
     },
     {
         title: 'about Us', 
@@ -24,14 +25,14 @@ export const MenuItems = [
     //     url: '/creategroup', 
     //     cName:'nav-links'
     // },
-    {
-        title: 'login', 
-        url: '/login', 
-        cName:'nav-links-mobile'
-    },
-    {
-        title: 'Sign Up', 
-        url: '/signup', 
-        cName:'nav-links-mobile'
-    }
+    // {
+    //     title: 'login', 
+    //     url: '/login', 
+    //     cName:'nav-links-mobile'
+    // },
+    // {
+    //     title: 'Sign Up', 
+    //     url: '/signup', 
+    //     cName:'nav-links-mobile'
+    // }
 ]

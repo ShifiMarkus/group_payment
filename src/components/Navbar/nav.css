@@ -11,8 +11,11 @@
     color:#fff;
     justify-self: start;
     margin-left: 20px;
+    margin-bottom: 1rem;
     cursor: pointer;
     min-width: 30rem;
+    text-decoration: none;
+    font-size: xx-large;
 }
 
 .fa-react{
